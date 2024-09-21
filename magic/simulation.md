@@ -19,7 +19,7 @@ As everyone knows blue is clearly the best color in Richard Garfield's magic the
 
 
 
-One of the most dangerous things a magic player can do is watch other people play magic. To set the seen I was watching a commander game when I saw a funny combo. Once you have accumulated 5 copies of *Templar Knight* simply attack and pay W and just drop a *Thrumming Stone* it onto the battlefield. Now the next templar knight you play if you have a significant fraction of your deck will allow you very good odds to pull every other *Templar Knight* from your deck directly onto the battlefield. Now not only do you have a board full of a *Templar Knight* but you now have the option to tutor the apocalypse from your deck directly out onto the board (*Blightsteel Colossus* for example.)
+One of the most dangerous things a magic player can do is watch other people play magic. To set the scene I was watching a commander game when I saw a funny combo. Once you have accumulated 5 copies of *Templar Knight* simply attack and pay W and just drop a *Thrumming Stone* it onto the battlefield. Now the next templar knight you play if you have a significant fraction of your deck will allow you very good odds to pull every other *Templar Knight* from your deck directly onto the battlefield. Now not only do you have a board full of a *Templar Knight* but you now have the option to tutor the apocalypse from your deck directly out onto the board (*Blightsteel Colossus* for example.)
 
 <img align="right" src="https://cards.scryfall.io/large/front/7/9/7928bb14-7631-4830-a756-26d1ea832ba2.jpg?1562612395" alt="Blightsteel Colossus courtesy of scryfall" width="200" style="transform: translate(42px, -10px) rotate(-10deg); border-radius: 10px"/>
 
