@@ -1,12 +1,12 @@
 [
         {
-                "title":"Modular Origami",
-                "blurb":"Simple constructions which form complex shapes",
-                "source":"https://raw.githubusercontent.com/benev0/blog/main/modular_origami/origami.md"
-        },
-        {
                 "title":"Simulating Magic the Gathering",
                 "blurb":"How to properly justify a large card purchase",
                 "source":"https://raw.githubusercontent.com/benev0/blog/main/magic/simulation.md"
+        },
+        {
+                "title":"Modular Origami",
+                "blurb":"Simple constructions which form complex shapes",
+                "source":"https://raw.githubusercontent.com/benev0/blog/main/modular_origami/origami.md"
         }
 ]
