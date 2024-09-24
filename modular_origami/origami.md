@@ -14,8 +14,17 @@ The particular unit that I use is a 2 to 1 ratio, so not the standard square. So
 For an icosahedron acquire 30 pieces of paper all rectangular of equal size and of the ratio 2 by 1.
 
 1. Fold these pieces in half to form a square book.
+
+![Step 1](https://raw.githubusercontent.com/benev0/blog/refs/heads/main/modular_origami/assets/step1.svg)
+
 2. Create creases by folding back your book into a W shape.
+
+![Step 2](https://raw.githubusercontent.com/benev0/blog/refs/heads/main/modular_origami/assets/step2.svg)
+
 3. With the book opening left take the corner on the bottom left of the book and fold it to the crease such that the fold formed reaches the spine of the book.
+
+![Step 1](https://raw.githubusercontent.com/benev0/blog/refs/heads/main/modular_origami/assets/step3.svg)
+
 4. fold that newly formed edge so that it is rotated towards and touches the outside spine of the book.
 5. flip the book so that it still opens left and repeat from step 3. the shape should resemble a bow tie.
 6. With the flat edge of the bow tie shape at the top fold the from the top corner of the bow tie on the lower layer to the center where the edges of the lower and upper layer meet crease.
