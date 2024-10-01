@@ -1,0 +1,12 @@
+[
+        {
+                "message":"$$\\lambda f.(\\lambda x.f(xx))(\\lambda x.f(xx))$$",
+                "urlIsLocal":true,
+                "url":"y-comb"
+        },
+        {
+                "message":"all your base are belong to us",
+                "urlIsLocal":true,
+                "url":""
+        }
+]
