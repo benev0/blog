@@ -8,5 +8,10 @@
                 "title":"Modular Origami",
                 "blurb":"Simple constructions which form complex shapes",
                 "source":"https://raw.githubusercontent.com/benev0/blog/main/modular_origami/origami.md"
+        },
+        {
+                "title":"This Blog",
+                "blurb":"Some information about this angular site",
+                "source":"https://raw.githubusercontent.com/benev0/blog/main/blog/angular_webcontent.md"
         }
 ]

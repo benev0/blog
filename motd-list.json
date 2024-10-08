@@ -2,7 +2,7 @@
         {
                 "message":"$$\\lambda f.(\\lambda x.f(xx))(\\lambda x.f(xx))$$",
                 "urlIsLocal":true,
-                "url":"y-comb"
+                "url":"the origin and rational of functional programming"
         },
         {
                 "message":"all your base are belong to us",
