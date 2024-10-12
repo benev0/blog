@@ -1,9 +1,9 @@
 # this.blogTitle
 
-Meta and tacky I know, but who does not like a bit of that. My personal experience with angular started in school. During the duration of the class I was not the most interested in Web, but ultimately I found that front end web was the only area where I could create a full project without too much hassle.
+Meta and tacky I know, but who does not like a bit of meta humor. My personal experience with angular and web started in Collage. During the duration of the class, I was not the most interested in Web, but ultimately I found that front end web was the only area where I could create a full project without too much hassle.
 
 ### Purpose of This Post
-Describe the content and methods of [this webpage](https://benev0.github.io/). This page is not designed to be used as template or an example to create other pages, but there will be some demonstrations of solutions which other sources may push a "Angular" solution where it not capable. This post expects some understanding of what html, css, and js do.
+Describe the content and methods of [this webpage](https://benev0.github.io/). This page is not designed to be used as template or an example to create other pages, but there will be some demonstrations of solutions where other sources may push an "Angular" solution where it not capable. This post expects some understanding of what HTML, CSS, and JS are.
 
 *HTML (Hyper Text Markup Language)* - a system of formatting data to be rendered to the page by the browser
 
@@ -12,15 +12,15 @@ Describe the content and methods of [this webpage](https://benev0.github.io/). T
 *JS (Java Script)* - Run code in the browser to manipulate HTML and CSS
 
 ## Angular
-Angular is google's answer to dissatisfaction within web dev. Angular allows the client (the content on your web browser) to be handled right in front of you instead of on some server. Is that a good thing? No, it is strictly unneeded for most things. Things where it may be good to not have to contact the server every time you make a change are editors and nothing else. So google docs, office, and other cloud editing software are valid uses ironically because of the risk of disconnecting. On that note *Angular*!
+Angular is google's answer to dissatisfaction within web dev. Angular allows the client (the content on your web browser) to be handled right in front of you instead of on some server. Is that a good thing? No, it is strictly unneeded for most things. Things where it may be good to not have to contact the server every time you make a change are editors and nothing else. So google docs, office, and other *"cloud"* editing software are valid uses only and ironically due to the risk of disconnection. On that note *Angular*!
 
 ### Components
-An angular app consists of these. Components are a bundling of three things TS, aka Type Script which is like JS but cant run in tbe browser, HTML but actually not it has some template stuff in there too, and probably CSS Angular default HTML is still ugly. A component also has a selector which is the name that can be used like a standard html tag in other component's template HTML. Most of the work to create a component besides the copious boiler plate is the TS functionality this is defined in a TS class the (public) methods and fields that are created in this class may be used within the template HTML. There is one root component which contains the whole angular application.
+An if you make an angular app you must have components or at least component because there is always one root component which contains the whole angular application. Components are a bundling of three things TS, aka Type Script which is like JS but can't run in the browser, HTML but actually not it has some template stuff in there too, and probably CSS or a CSS variant because Angular default HTML is still ugly. A component also has a selector which is the name that can be used like a standard html tag in other component's template HTML. Most of the work to create a component besides the copious boiler plate is the TS functionality this is defined in a TS class the (public) methods and fields that are created in this class may be used within the template HTML.
 
 {diagrams coming soon}
 
 ### Services
-Services differ from Components in that there may be nay instances of a single component, per Service there is only one instance, services are singletons by default. Services use a Object Oriented pattern called dependency injection. All that means is that when you use a service in a component you do not need to manage the service, you do not need to create the service, you do not need to destroy the service, from the perspective of the component it exists, and you just call its methods.
+Services differ from components primarily in responsibility services manage information that needs to be accessed by a diverse and disparate set of components. Services follow the dependency injection pattern and are also often singleton; the result of both of these things is what is essentially global state as the services lifetime matches the lifetime of the page without tedious configuration, and is accessible from every component that the service is injected into so posable all of them. Global state is likely one of the major driving factors of angular's original creation.
 
 {diagrams coming soon}
 
@@ -90,8 +90,19 @@ This is a small script which indicates which version of CSS should be used to se
 </html>
 ```
 
+This css is also required to utilize the pre-init script
+```css
+:root[data-applied-mode="light"] {
+  /* light theme styles here */
+}
+
+:root[data-applied-mode="dark"] {
+  /* dark theme styles here */
+}
+```
+
 ### settings page
-This page allows altering to and from light and dark mode the last change is stored in localstorage allowing for retrieval by the pre-init script.This local storage is managed by the settings service which also provides an observable to allow components which need to subscribe to acquire styles via an class. But also edits the applied mode to change the css variables.
+This page allows selection of light and dark modes the last change is stored in localstorage allowing for retrieval by the pre-init script. This local storage is managed by the settings service which also provides an observable to allow components which need to subscribe to acquire styles which are not properly expressed without JS. The service also sets the appliedMode as seen before.
 
 ## Angular Opinions
 It works, and I know it, but the grass is always greener, so I am just going to learn HTMX for next time.
@@ -100,4 +111,4 @@ In all seriousness...
 
 Angular is solid and I do think that services are intuitive although do pose some unique risks particularly with error tracking as many components will likely use that service.
 
-Does your content need to be updated on the server only, no the user can spare some cycles, but only some.
+Does your content need to be updated on the server only, no the user can spare some cycles.
